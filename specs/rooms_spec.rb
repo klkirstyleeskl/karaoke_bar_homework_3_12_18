@@ -46,10 +46,11 @@ class Rooms
 
   def test_enter_room
     assert_equal(1, @room_1.customers)
+
   end
 
   def test_time_limit
-    assert_equal(6.60 @)
+    assert_equal(6.60, @customer_1.duration)
   end
 
 end

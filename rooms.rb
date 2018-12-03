@@ -14,12 +14,12 @@ class Rooms
     @customers << guests
   end
 
-  def verify_drunkenness (drunkenness)
-  return drunkenness < 10
-end
-
-
-
+  def time_limit(guests, song_duration)
+    @song_choices + duration
+    if @song_choices >= 20.00
+      return "Time up!"
+    end
+  end
 
 
 end
